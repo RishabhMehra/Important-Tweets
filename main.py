@@ -24,10 +24,10 @@ def search(text):
     import re
     import pandas as pd
 
-    consumer_key = 'q17ntmIaHouizJgLof0NYcfFh'
-    consumer_secret = 'Lr4bPzyS2150NCKR8sUbpZSr8YL46enVr2wOo5Z5xhYbrq8U8m'
-    access_token = '528757340-ivH4yokVZU8ZlvXWzpx9FNXlBJ3F61ecg8Dss9LC'
-    access_token_secret = 'ctnQUzRivqVBRNvet5TZdrEaTYXyVgdhaa48YzBX3Nmg4'
+    consumer_key = <<Enter your Key>>
+    consumer_secret = <<Enter your Key>>'
+    access_token = <<Enter your Key>>'
+    access_token_secret = <<Enter your Key>>'
     auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api=tweepy.API(auth)
